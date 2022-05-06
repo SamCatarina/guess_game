@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto Mono';
+    background-color: #c1eaf8;
+}
+header{
+    display: block;
+    color: #fd6345;
+    text-align: center;
+}
+header > .main-header{
+    font-size: 20px;
+    margin-top: 10px;
+    padding-bottom: 30px;
+}
+header > .scd-header{
+    font-size: 12px;
+}
+.main-bottom{
+    text-align: center;
+}
+.main-bottom > .start-bottom{
+    color: #525252;
+    background-color: #ff9b29d8;
+    width: 180px;
+    height: 50px;
+    font-family: 'Roboto Mono';
+    font-size: 18px;
+    margin-top: 35px;
+    box-shadow: 4px 4px 4px 0px #00000080;
+}
+.main-bottom > .start-bottom:hover{
+    cursor: pointer;
+    background-color: #faa749e0;
+}
+.main-bottom > .start-bottom:active{
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    font-size: 17px;
+    width: 170px;
+}
+.numbers-container > .numbers-list{
+    color: #525252;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    max-width: 700px;
+    min-width: 300px;
+}
+.numbers-container > .numbers-list > .number{
+    background-color: #FFDE49;
+    width: 75px;
+    height: 62px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 60px;
+    text-align: center;
+    line-height: 62px;
+    font-size: 20px;
+}
+.numbers-container > .numbers-list > .rightNumber{
+    background-color: #2bcc91;
+    width: 75px;
+    height: 62px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 60px;
+    text-align: center;
+    line-height: 62px;
+    font-size: 20px;
+}
+.numbers-container > .numbers-list > .wrongNumber{
+    background-color: #ff4e2a;
+    width: 75px;
+    height: 62px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 60px;
+    text-align: center;
+    line-height: 62px;
+    font-size: 20px;
+}
+
+.numbers-container > .numbers-list > .number:hover{
+    cursor: pointer;
+    background-color: #ffde49bd;
+}
+.numbers-container > .numbers-list > .number:active{
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.main-message > .message{
+    text-align: center;
+    color: #7B7EEE;
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.main-message > .message > .tryAgain{
+    cursor: pointer;
+    border: 2px solid #7B7EEE;
+    padding: 5px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+.main-message > .message > .tryAgain:active{
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
